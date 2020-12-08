@@ -1,0 +1,28 @@
+<div class="container container-md col-md-12 ubication">
+    <div class="">
+        <h1 class="titulo">GIPHY</h1>
+        <form id = 'formDatos' class="formBusca" >
+            <input id='infoSearch' name="dato" class="busca" type="text" placeholder ='Buscar'> 
+            <select name="modo" id='select'>
+                <option value="gifs">Gifs</option>
+                <option value="stickers">Stickers</option>
+            </select>
+            <br>
+            <button type="submit" id="search" href="search" class="search" (click)="busca(dato)">Buscar</button>
+            
+        </form>
+    </div>
+</div>   
+
+<div >
+    <div class="col-md-12 row center" >
+        
+        <figure class="col-md-3 row" *ngFor="let git of listgifs.data">
+            <a href="{{ git.images.original.url }}" target="_blank">
+                <img  alt="picture" src="{{ git.images.original.url }}"
+                class="size">
+            </a>
+        </figure>
+    </div>
+</div>
+

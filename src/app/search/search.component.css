@@ -1,0 +1,80 @@
+
+h1 {
+    font-size: 64px;
+    background-image: linear-gradient(to left, rgb(247, 55, 247), indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+    width: 225px;
+    text-align: center;
+}
+.titulo {
+    margin: auto;
+}
+.formBusca{ 
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.ubication{
+    text-align: -webkit-center;
+    padding-top: 109px;
+    margin-top: 47px;
+}
+.search {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.outra {
+    padding: 20px;
+    text-align: -webkit-center;
+}
+input {
+    width: 300px;
+    height: 35px;
+    border-radius: 10px 0px 0px 10px;
+    padding-right: 20px;
+    /* margin-right: 20px; */
+}
+
+select{
+    width: 100px;
+    height: 35px;
+    border-radius: 0px 10px 10px 0px;
+}
+button {
+    font-size: 22px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 7px;
+    text-align: center;
+}
+
+
+img {
+    background-color: black;
+    transition: opacity 2;
+  }
+  
+img:hover {
+    opacity: 0.8;
+}
+
+.size {
+    width: 95%;
+    height: auto;
+
+}
+
+.center {
+    margin: auto;
+    align-items: center;
+    left: 4%;
+    right: 4%;
+}
+
+.col-md-12 {
+    max-width: 90%;
+}
+

@@ -1,0 +1,15 @@
+<p>result works!</p>
+<div >
+    <div class="outra">
+        <button type="submit" >Outra Pesquisa</button>
+    </div>
+    <div class="col-md-12 row center" >
+        
+        <figure class="col-md-3 row" *ngFor="let git of listgifs.data">
+            <a href="{{ git.images.original.url }}" target="_blank">
+                <img  alt="picture" src="{{ git.images.original.url }}"
+                class="size">
+            </a>
+        </figure>
+    </div>
+</div>

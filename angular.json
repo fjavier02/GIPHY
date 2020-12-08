@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GIPHY"
+    }
+  },
+  "defaultProject": "GIPHY",
+  "cli": {
+    "analytics": "50ceda04-dc50-4a65-9b24-3d1023902013"
+  }
 }
